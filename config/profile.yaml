@@ -43,7 +43,6 @@ profile:
 # =====================================================
 # 🎓 Education Section
 # =====================================================
-
 education:
   - degree: "B.S. in Artificial Intelligence"
     school: "Dawood University of Engineering & Technology (DUET), Karachi"
@@ -53,18 +52,35 @@ education:
   - degree: "Intermediate (Pre-Engineering)"
     school: "Karachi Board"
     years: "2021 - 2023"
-    logo: null
 
 # =====================================================
 # 💼 Work Experience / 🎤 Talks / 🛡️ Services
-# (left empty because these do not apply yet)
+# These sections are hidden in homepage.yaml (enabled: false).
+# The placeholder entries below exist only so the template compiles
+# and are never displayed.
 # =====================================================
 
-workExperience: []
+workExperience:
+  - title: "Placeholder"
+    company: "Placeholder"
+    years: "N/A"
+    logo: "/images/duet_logo.png"
 
-talks: []
+talks:
+  - category: "Misc"
+    title: "Placeholder"
+    organization: "Placeholder"
+    date: "N/A"
+    link: "https://example.com"
+    image: "https://example.com/image.png"
 
-services: []
+services:
+  - category: "Misc"
+    role: "Placeholder"
+    organization: "Placeholder"
+    date: "N/A"
+    link: "https://example.com"
+    image: "https://example.com/image.png"
 
 # =====================================================
 # 🛠️ Skills Section
