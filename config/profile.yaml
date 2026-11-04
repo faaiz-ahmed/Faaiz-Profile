@@ -31,13 +31,6 @@ profile:
   biography: |
     Hi! I'm <strong>Faaiz Ahmed</strong>, a B.S. <em>Artificial Intelligence</em> student at <em>Dawood University of Engineering &amp; Technology (DUET), Karachi</em> (CGPA 3.41). I build deep learning pipelines, computer vision systems and LLM-based applications, and I am seeking an <em>AI/ML internship</em> to grow in a professional team environment.
     <div class="my-2"></div>
-    <strong>Selected projects:</strong><br/>
-    <a href="https://github.com/faaiz-ahmed/quranic-rag-assistant" target="_blank" rel="noopener noreferrer">Quranic AI Assistant</a>: a RAG app using OCR, FAISS and a Groq LLM, deployed on Streamlit Cloud (<a href="https://quranic-rag-assistant-toapnfqdhserptsvnrnvrx.streamlit.app/" target="_blank" rel="noopener noreferrer">live demo</a>).<br/>
-    <a href="https://github.com/faaiz-ahmed/Face-Emotion-Recognition" target="_blank" rel="noopener noreferrer">Face Emotion Recognition</a>: four CNN architectures compared on FER-2013, with live webcam inference.<br/>
-    <a href="https://github.com/faaiz-ahmed/Sign-Language-Detection-using-yolo" target="_blank" rel="noopener noreferrer">Sign Language Detection</a>: a custom-trained YOLO11n detector with a Flask phone-stream app.<br/>
-    <a href="https://github.com/faaiz-ahmed/AI-Voice-Assistant-Python" target="_blank" rel="noopener noreferrer">Fraday</a>: a multi-modal desktop assistant using Cohere and the Google Gemini API.<br/>
-    More on <a href="https://github.com/faaiz-ahmed" target="_blank" rel="noopener noreferrer">GitHub</a>, including pose-based activity recognition, a survey data-cleaning analysis, and games and tools built with Ursina, Pygame, Unity and Tkinter.
-    <div class="my-2"></div>
     I am a member of the AI Society at DUET and a participant in Bano Qabil 2.0, a government-backed intensive tech training programme in Karachi. Feel free to <a href="mailto:2005faaiz@gmail.com" target="_blank" rel="noopener noreferrer">reach out</a> to connect.
 
 # =====================================================
