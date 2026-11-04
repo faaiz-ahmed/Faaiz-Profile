@@ -191,6 +191,11 @@ skills:
       proficiency: "Deloitte Forage, July 2025"
       description: null
 
+    - name: "Python with Gen-AI - Nodebook, Cisco Networking Academy"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "July 2026 - Oct 2026"
+      description: null
+      
     - name: "Bano Qabil 2.0 LRN Certificate"
       logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
       proficiency: "Dec 2023 - Mar 2024"
@@ -200,7 +205,7 @@ skills:
       logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
       proficiency: "LinkedIn Learning"
       description: null
-
+      
   Language:
     - name: "Urdu"
       logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
