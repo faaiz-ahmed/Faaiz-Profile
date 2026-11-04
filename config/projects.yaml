@@ -57,7 +57,7 @@ projects:
 
     - id: "space-runner"
       displayName: "Space Runner (Unity)"
-      previewImage: https://raw.githubusercontent.com/faaiz-ahmed/space-runner/main/screenshots/Game.PNG
+      previewImage: https://raw.githubusercontent.com/faaiz-ahmed/space-runner/blob/master/screenshots/Game.PNG
       featured: true
 
     - id: "python-scientific-calculator"
