@@ -4,7 +4,7 @@
 # =====================================================
 
 site:
-  name: "Showlit"
-  repoUrl: "https://github.com/pm25/showlit"
-  description: "A short description"
-  author: "Your Name"
+  name: "Faaiz Ahmed"
+  repoUrl: "https://github.com/faaiz-ahmed/portfolio"
+  description: "Portfolio of Faaiz Ahmed, an AI/ML student at DUET, Karachi, featuring computer vision, deep learning and LLM projects."
+  author: "Faaiz Ahmed"
