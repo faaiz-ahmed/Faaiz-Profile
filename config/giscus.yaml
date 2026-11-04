@@ -17,7 +17,7 @@
 # =====================================================
 
 giscus:
-  repo: "pm25/showlit" # data-repo
-  repoId: "R_kgDONgMOyA" # data-repo-id
+  repo: "faaiz-ahmed/portfolio" # data-repo
+  repoId: "R_kgDOVioWYQ" # data-repo-id
   category: "General" # data-category
-  categoryId: "DIC_kwDONgMOyM4Cq4Ga" # data-category-id
+  categoryId: "DIC_kwDOVioWYc4DKXjD" # data-category-id
