@@ -1,236 +1,204 @@
 # =====================================================
 # Data displayed on the Home (About Me) page.
-#
-# 💡 Tip for Images / Logo:
-# You can use either:
-# 1. A full URL (e.g., https://example.com/logo.png)
-# 2. A local file placed under /public/images/ and referenced with "/" (e.g., "/images/logo.png")
-# =====================================================
-
-# =====================================================
-# 👤 Personal Information
 # =====================================================
 
 profile:
-  name: "[Your Name]"
-  headline: "Student @ [Your University]"
-  email: "your-email@gmail.com"
-  location: null
-  profileImage: "https://github.com/pm25.png"
+  name: "Faaiz Ahmed"
+  headline: "AI/ML Student @ DUET, Karachi"
+  email: "2005faaiz@gmail.com"
+  location: "Karachi, Pakistan"
+  profileImage: "/images/faaiz.jpg"
 
   links:
     - name: "LinkedIn"
-      url: "https://www.linkedin.com/in/[your-linkedin]"
+      url: "https://www.linkedin.com/in/faaizahmed-karachi"
       icon:
         name: "FaLinkedin"
         package: "react-icons/fa6"
 
-    - name: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=[your-id]"
-      icon:
-        name: "FaGoogleScholar"
-        package: "react-icons/fa6"
-
-    - name: "Résumé"
-      url: "/pdf/sample-resume.pdf"
-      icon:
-        name: "FaRegIdBadge"
-        package: "react-icons/fa6"
-
     - name: "Github"
-      url: "https://github.com/[your-github]"
+      url: "https://github.com/faaiz-ahmed"
       icon:
         name: "FaGithub"
         package: "react-icons/fa6"
 
-    - name: "Facebook"
-      url: "https://www.facebook.com/[your-facebook]"
+    - name: "Résumé"
+      url: "/pdf/Faaiz_Ahmed_Resume_AI_ML.pdf"
       icon:
-        name: "FaSquareFacebook"
+        name: "FaRegIdBadge"
         package: "react-icons/fa6"
 
-  # you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
   biography: |
-    Hi! I'm <strong>[Your Name]</strong>, a <em>[Your Title]</em> passionate about <em>[field or topic]</em>. Currently, I work as <em>[current role]</em> at <em>[organization]</em>, where I <em>[briefly describe your work or mission]</em>. 
-    With a background in <em>[academic or professional background]</em>, I've developed strong interests in <em>[key interests or specialties]</em> and have contributed to projects like <i>[example project]</i> and <i>[another example]</i>, all focused on <em>[broader goal or impact]</em>.
+    Hi! I'm <strong>Faaiz Ahmed</strong>, a B.S. <em>Artificial Intelligence</em> student at <em>Dawood University of Engineering &amp; Technology (DUET), Karachi</em> (CGPA 3.41). I build deep learning pipelines, computer vision systems and LLM-based applications, and I am seeking an <em>AI/ML internship</em> to grow in a professional team environment.
     <div class="my-2"></div>
-    Outside of work, I enjoy <em>[hobbies or personal interests]</em>, which inspire creativity and keep me energized. Thanks for visiting! Feel free to <a href="mailto:[your-email@example.com]" target="_blank" rel="noopener noreferrer">reach out</a> to connect.
+    <strong>Selected projects:</strong><br/>
+    <a href="https://github.com/faaiz-ahmed/quranic-rag-assistant" target="_blank" rel="noopener noreferrer">Quranic AI Assistant</a>: a RAG app using OCR, FAISS and a Groq LLM, deployed on Streamlit Cloud (<a href="https://quranic-rag-assistant-toapnfqdhserptsvnrnvrx.streamlit.app/" target="_blank" rel="noopener noreferrer">live demo</a>).<br/>
+    <a href="https://github.com/faaiz-ahmed/Face-Emotion-Recognition" target="_blank" rel="noopener noreferrer">Face Emotion Recognition</a>: four CNN architectures compared on FER-2013, with live webcam inference.<br/>
+    <a href="https://github.com/faaiz-ahmed/Sign-Language-Detection-using-yolo" target="_blank" rel="noopener noreferrer">Sign Language Detection</a>: a custom-trained YOLO11n detector with a Flask phone-stream app.<br/>
+    <a href="https://github.com/faaiz-ahmed/AI-Voice-Assistant-Python" target="_blank" rel="noopener noreferrer">Fraday</a>: a multi-modal desktop assistant using Cohere and the Google Gemini API.<br/>
+    More on <a href="https://github.com/faaiz-ahmed" target="_blank" rel="noopener noreferrer">GitHub</a>, including pose-based activity recognition, a survey data-cleaning analysis, and games and tools built with Ursina, Pygame, Unity and Tkinter.
+    <div class="my-2"></div>
+    I am a member of the AI Society at DUET and a participant in Bano Qabil 2.0, a government-backed intensive tech training programme in Karachi. Feel free to <a href="mailto:2005faaiz@gmail.com" target="_blank" rel="noopener noreferrer">reach out</a> to connect.
 
-# # =====================================================
-# # 🎓 Education Section
-# # =====================================================
+# =====================================================
+# 🎓 Education Section
+# =====================================================
 
 education:
-  - degree: "Ph.D. in [Field]"
-    school: "[University Name]"
-    years: "20XX - Present"
-    logo: "https://upload.wikimedia.org/wikipedia/en/a/a1/Arizona_State_University_seal.svg"
+  - degree: "B.S. in Artificial Intelligence"
+    school: "Dawood University of Engineering & Technology (DUET), Karachi"
+    years: "2023 - Present"
+    logo: "/images/duet_logo.png"
 
-  - degree: "M.S. in Computer Science"
-    school: "National Taiwan University"
-    years: "2020 - 2022"
-    logo: "/images/ntu_logo.svg"
+  - degree: "Intermediate (Pre-Engineering)"
+    school: "Karachi Board"
+    years: "2021 - 2023"
+    logo: null
 
-  - degree: "B.S. in Computer Science"
-    school: "National Chengchi University"
-    years: "2018 - 2020"
-    logo: "/images/nccu_logo.svg"
+# =====================================================
+# 💼 Work Experience / 🎤 Talks / 🛡️ Services
+# (left empty because these do not apply yet)
+# =====================================================
 
-# # =====================================================
-# # 💼 Work Experience Section
-# # =====================================================
+workExperience: []
 
-workExperience:
-  - title: "[Job Title]"
-    company: "[Company Name]"
-    years: "20XX - Present"
-    logo: "/images/nvidia_logo.webp"
+talks: []
 
-  - title: "Software Engineering Intern"
-    company: "Google"
-    years: "Jul 2022 - Sep 2022"
-    logo: "/images/google_logo.svg"
+services: []
 
-  - title: "Research Assistant"
-    company: "University of Illinois Urbana-Champaign"
-    years: "Jul 2019 - Sep 2019"
-    logo: "/images/uiuc_logo.png"
-
-# # =====================================================
-# # 🎤 Presentations / Talks Section
-# # =====================================================
-
-talks:
-  - category: "Misc"
-    title: "[Your Talk Title Here]"
-    organization: "[Your Talk Location Here]"
-    date: "[Month Day, Year]"
-    link: "https://example.com/your-talk-link"
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
-
-  - category: "Workshop"
-    title: "Deep Learning with Keras"
-    organization: "University of Illinois Urbana-Champaign (UIUC)"
-    date: "Sep 4, 2019"
-    link: null
-    image: "https://pm25.github.io/images/uiuc-workshop.webp"
-
-  - category: "Workshop"
-    title: "Practical Guide to PyTorch"
-    organization: "ABC University"
-    date: "Dec 5, 2022"
-    link: "https://example.com/workshop-talk"
-    image: null
-
-# # =====================================================
-# # 🛡️ Professional Services
-# # =====================================================
-
-services:
-  - category: "Misc"
-    role: "[Role]"
-    organization: "[Organization]"
-    date: "[Year]"
-    link: "https://example.com/workshop-talk"
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
-
-  - category: "Research"
-    role: "Reviewer"
-    organization: "TPAMI 2024, NeurIPS 2025"
-    date: "2024-2025"
-    link: null
-    image: null
-
-  - category: "Research"
-    role: "Program Committee Member"
-    organization: "CVPR 2022"
-    date: "2022"
-    link: null
-    image: null
-
-  - category: "Teaching"
-    role: "Teaching Assistant"
-    organization: "National Taiwan University - Data Structures & Algorithms"
-    date: "2021"
-    link: null
-    image: null
-
-# # =====================================================
-# # 🛠️ Skills Section
-# # =====================================================
+# =====================================================
+# 🛠️ Skills Section
+# =====================================================
 
 skills:
   Programming:
-    - name: "[Name]"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
-      proficiency: "[Proficiency]"
-      description: "[Description]"
-
     - name: "Python"
       logo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
-      proficiency: Experienced
+      proficiency: "Used in projects"
+      description: "Primary language across my AI/ML, computer vision and desktop projects."
+
+    - name: "C / C++"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Working knowledge"
       description: null
 
-    - name: "JavaScript"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
-      proficiency: Fluent
-      description: null
+    - name: "C#"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Used in projects"
+      description: "Unity 2D game (Space Runner)."
 
-  Web:
-    - name: "React"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg"
-      proficiency: Advanced
-      description: null
-
-    - name: "Typescript"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Typescript.svg"
-      proficiency: Fluent
-      description: null
-
-    - name: "TailwindCSS"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
-      proficiency: Fluent
-      description: null
-
-    - name: "Next.js"
-      logo: "https://logo.svgcdn.com/devicon/nextjs-original.png"
-      proficiency: Fluent
-      description: null
+    - name: "SQL"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Working knowledge"
+      description: "Including Oracle DB."
 
   Machine Learning:
-    - name: "PyTorch"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg"
-      proficiency: Experienced
-      description: null
-
     - name: "TensorFlow"
       logo: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg"
-      proficiency: Fluent
-      description: null
+      proficiency: "Used in projects"
+      description: "CNN training for emotion recognition and image classification."
 
     - name: "Keras"
       logo: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg"
-      proficiency: Fluent
+      proficiency: "Used in projects"
+      description: "CNNs and transfer learning (MobileNetV2) on FER-2013."
+
+    - name: "PyTorch"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg"
+      proficiency: "Working knowledge"
       description: null
 
-  Research:
-    - name: "Machine Learning"
+    - name: "scikit-learn"
       logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: 2020 - Current
-      description: "General machine learning methods and applied research."
+      proficiency: "Used in projects"
+      description: "Evaluation metrics such as confusion matrices and F1-scores."
 
-    - name: "Representation Learning"
+    - name: "YOLO (Ultralytics)"
       logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: 2024 - 2025
-      description: "Learning meaningful embeddings and feature representations from data."
+      proficiency: "Used in projects"
+      description: "Custom-trained YOLO11n for gesture detection, validated with mAP."
+
+  Computer Vision and NLP:
+    - name: "OpenCV"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Used in projects"
+      description: "Real-time webcam inference, preprocessing and image tools."
+
+    - name: "MediaPipe"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Used in projects"
+      description: "Pose estimation for human activity recognition."
+
+    - name: "Tesseract OCR"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Used in projects"
+      description: "Reading scanned PDF pages for the RAG assistant."
+
+    - name: "Gemini API and Cohere NLP"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Used in projects"
+      description: "Image analysis and conversational AI in Fraday."
+
+  RAG and Deployment:
+    - name: "LangChain and FAISS"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Used in projects"
+      description: "Retrieval pipeline with sentence-transformer embeddings."
+
+    - name: "Groq API"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Used in projects"
+      description: "LLM answer generation in the Quranic AI Assistant."
+
+    - name: "Streamlit and Flask"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Used in projects"
+      description: "Streamlit Cloud deployment and a Flask live-detection stream."
+
+  Tools:
+    - name: "Git, GitHub, Jupyter, Google Colab"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Used in projects"
+      description: null
+
+    - name: "Tkinter, Pygame, Ursina, Unity"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Used in projects"
+      description: "Desktop apps and games."
+
+  Certifications:
+    - name: "Career Essentials in Generative AI"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Microsoft & LinkedIn Learning"
+      description: null
+
+    - name: "Intro to Generative AI"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Google Cloud"
+      description: null
+
+    - name: "Virtual Technology Consulting Internship"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Deloitte Forage, July 2025"
+      description: null
+
+    - name: "Bano Qabil 2.0 LRN Certificate"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "Dec 2023 - Mar 2024"
+      description: null
+
+    - name: "Generative AI and Ethics in AI"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
+      proficiency: "LinkedIn Learning"
+      description: null
 
   Language:
-    - name: "English"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
-      proficiency: Fluent
-      description: "Professional working proficiency."
-
-    - name: "Taiwanese Hokkien"
+    - name: "Urdu"
       logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
       proficiency: Native
-      description: "Native fluency."
+      description: null
+
+    - name: "English"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
+      proficiency: Professional
+      description: null
