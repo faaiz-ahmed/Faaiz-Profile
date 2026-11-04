@@ -10,7 +10,7 @@
 # 6. Paste them below to activate Giscus on your site.
 #
 # Each field maps directly to the HTML attributes used by Giscus:
-#   repo        → data-repo
+#   repo        → data-repo 
 #   repoId      → data-repo-id
 #   category    → data-category
 #   categoryId  → data-category-id
