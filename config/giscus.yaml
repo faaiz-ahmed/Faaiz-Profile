@@ -1,6 +1,6 @@
 # =====================================================
 # Configuration settings for Giscus (comments & reactions on article pages)
-#
+# 
 # Setup Steps:
 # 1. Visit https://giscus.app and go to **Configuration → Repository**.
 # 2. Select your GitHub repository where discussions will be created.
